@@ -1,6 +1,5 @@
 export const langTokens = (mode) =>
       // Inglês
-
   mode === "En"
     ? {
         navBar: {

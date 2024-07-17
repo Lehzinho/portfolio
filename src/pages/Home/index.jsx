@@ -11,7 +11,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import ptcv from "../../assets/vivianecv.pdf";
-import { langTokens } from "../../Hooks/uselang";
+import { langTokens } from "../../hooks/uselanguage";
 import { useLang as useLanguage } from "../../useContext";
 
 export const Home = () => {

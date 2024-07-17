@@ -12,7 +12,7 @@ import Piratas from "../../assets/Piratas.png";
 import jm from "../../assets/jm.png";
 import AlePortifolio from "../../assets/AlePortfolio.png";
 
-import { langTokens } from "../../Hooks/uselang";
+import { langTokens } from "../../hooks/uselanguage";
 import { useLang as useLanguage } from "../../useContext";
 
 export const Portfolio = () => {
