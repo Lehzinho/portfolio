@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import { Container, MobileNav, Navigation } from "./styles";
 
 import { langTokens } from "../../hooks/useLang";
-import { useLang } from "../../useContext";
+import { useLang as useLanguage } from "../../useContext";
 
 export const Nav = () => {
 
-  const { lang, setLang } = useLang();
+  const { lang, setLang } = useLanguage();
   const { navBar } = langTokens(lang);
   const [bool, setBool] = useState(lang == "Pt" ? true : false);
 
