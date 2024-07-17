@@ -28,16 +28,16 @@ export const Portfolio = () => {
         <h4>{portfolio.header}</h4>
         <Jobs
           image={Piratas}
-          title={trabalhos.MyPort[0]}
+          title={trabalhos.Piratas[0]}
 
-          description={trabalhos.MyPort[1]}
+          description={trabalhos.Piratas[1]}
           link="https://www.figma.com/design/8wjq0LpvKJWPQEswE5isXd/Piratas?node-id=0-1&t=LoYx5oKj7wHdzKXX-1"
         /> 
         <Jobs
           image={jm}
-          title={trabalhos.MyPort[0]}
+          title={trabalhos.Jm[0]}
 
-          description={trabalhos.MyPort[1]}
+          description={trabalhos.Jm[1]}
           link="https://www.figma.com/design/n7ht1OqWPes3NStZEU2ZOO/JM-Print-and-Sign?node-id=34-5&t=iLRBKSsghS5rZ3mG-1"
         /> 
         <Jobs
@@ -53,13 +53,13 @@ export const Portfolio = () => {
           description={trabalhos.SimpleNotes[1]}
           link="https://www.figma.com/file/5KFsAsoZZFPFRwkwzJzMQy/LeideCakes?node-id=0%3A1&t=QrymOJT5Hj5BOqrc-1"
         />
-        <Jobs
+        {/* <Jobs
           image={AlePortifolio}
           title={trabalhos.LehPort[0]}
 
           description={trabalhos.LehPort[1]}
           link="https://www.figma.com/file/WLnXWHihUKlI5NvHsF48Qg/Simple-Notes?node-id=0%3A1&t=p85UzO1UojyYwh9H-1"
-        /> 
+        />  */}
         <Jobs
           image={Cake}
           title={trabalhos.Cakes[0]}
@@ -74,13 +74,13 @@ export const Portfolio = () => {
           description={trabalhos.Kindle[1]}
           link="https://www.figma.com/file/n3bHYM36CZgRNGGLuLJAq9/LehPortfolio?type=design&node-id=1%3A1552&t=J3sqObEaDIYxZJAu-1"
         /> 
-        <Jobs
+        {/* <Jobs
           image={ViPortifolio}
           title={trabalhos.MyPort[0]}
 
           description={trabalhos.MyPort[1]}
           link="https://www.figma.com/file/jUUX9tfTlltsQQKZQrnWek/Portfolio2?type=design&node-id=10%3A3459&t=exILhDBA6TLonJ8D-1"
-        /> 
+        />  */}
 
     
     

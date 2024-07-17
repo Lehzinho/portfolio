@@ -40,12 +40,12 @@ export const langTokens = (mode) =>
         trabalhos: {
           DiToscana: ["Di Toscana Pizzaria","In progress... Website  design being make in Figma for a pizzeria in Caldas Novas, Goiás."],
           SimpleNotes: ["Simple Notes","Creation made with Figma tool through Rodrigo Gonçalves' web design course."],
-          LehPort: ["Portfolio","Project created for a portfolio, made in Figma."],
+          // LehPort: ["Portfolio","Project created for a portfolio, made in Figma."],
           Cakes: ["Delicious Cake","Creation made with Figma tool for a handmade bakery, both web and mobile."],
           Kindle: ["Kindle","Test UI design project created for a technology-themed company. Includes Landing Page, E-mail Marketing, and Mobile design."],
-          MyPort: ["Personal Portfolio","Personal portfolio created in Figma."],
-          MyPort: ["Piratas","Criação feita com a ferramenta Figma para uma pizzaria temática em Caldas Novas, web e mobile."],
-          MyPort: ["JM Print","Criação de Landing Page para uma gráfica na Irlanda, utilizando o Figma como principal ferramenta."],
+          // MyPort: ["Personal Portfolio","Personal portfolio created in Figma."],
+          Piratas: ["Piratas","Criação feita com a ferramenta Figma para uma pizzaria temática em Caldas Novas, web e mobile."],
+          Jm: ["JM Print","Criação de Landing Page para uma gráfica na Irlanda, utilizando o Figma como principal ferramenta."],
         },
       }
     : {
@@ -89,9 +89,11 @@ export const langTokens = (mode) =>
         trabalhos: {
           DiToscana: ["Di Toscana Pizzaria","Em andamento.... Site está sendo desenvolvido no Figma para uma pizzaria em Caldas Novas - Goiás."],
           SimpleNotes: ["Simple Notes","Criação feita com a ferramenta Figma pelo curso do Rodrigo Gonçalves, web."],
-          LehPort: ["Portfólio","Projeto criado para um Portifólio realizado no Figma."],
+          // LehPort: ["Portfólio","Projeto criado para um Portifólio realizado no Figma."],
           Cakes: ["Delicious Cake","Criação feita com a ferramenta Figma para uma confeitaria artesanal, web e mobile."],
           Kindle: ["Kindle","Projeto Teste de UI design desenvolvido para uma empresa com o tema tecnologia. Landing Page, E-mail Marketing e Mobile. "],
-          MyPort: ["Meu Portfólio","Desenvolvimento de Portfólio pessoal realizado no Figma."],
+          // MyPort: ["Meu Portfólio","Desenvolvimento de Portfólio pessoal realizado no Figma."],
+          Piratas: ["Piratas","Creation made with the Figma tool for a themed pizza place in Caldas Novas, web and mobile."],
+          Jm: ["JM Print","Creation of a Landing Page for a printing company in Ireland, using Figma as a primary tool."],
         },
       };
