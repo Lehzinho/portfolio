@@ -46,6 +46,8 @@ export const langTokens = (mode) =>
           // MyPort: ["Personal Portfolio","Personal portfolio created in Figma."],
           Piratas: ["Piratas","Creation made with the Figma tool for a themed pizza place in Caldas Novas, web and mobile."],
           Jm: ["JM Print","Creation of a Landing Page for a printing company in Ireland, using Figma as a primary tool."],
+          Mera: ["MERA","Group project conducted by Coder House as the culmination of the UI/UX Design course."],
+
 
         },
       }
@@ -97,5 +99,6 @@ export const langTokens = (mode) =>
 
           Piratas: ["Piratas","Criação feita com a ferramenta Figma para uma pizzaria temática em Caldas Novas, web e mobile."],
           Jm: ["JM Print","Criação de Landing Page para uma gráfica na Irlanda, utilizando o Figma como principal ferramenta."],
+          Mera: ["MERA","Projeto em grupo realizado pela Coder House como conclusão do curso de UI/UX Design."],
         },
       };

@@ -11,6 +11,7 @@ import ViPortifolio from "../../assets/ViPortfolio.png";
 import Piratas from "../../assets/Piratas.png";
 import jm from "../../assets/jm.png";
 import AlePortifolio from "../../assets/AlePortfolio.png";
+import Mera from "../../assets/Mera.png";
 
 import { langTokens } from "../../hooks/uselanguage";
 import { useLang as useLanguage } from "../../useContext";
@@ -39,17 +40,23 @@ export const Portfolio = () => {
           link="https://www.figma.com/design/n7ht1OqWPes3NStZEU2ZOO/JM-Print-and-Sign?node-id=34-5&t=iLRBKSsghS5rZ3mG-1"
         /> 
         <Jobs
+          image={Mera}
+          title={trabalhos.Mera[0]}
+          description={trabalhos.Mera[1]}
+          link="https://www.behance.net/gallery/178787583/Aplicativo-de-Monitoramento"
+        /> 
+        <Jobs
           image={Pizzaria}
           title={trabalhos.DiToscana[0]}
           description={trabalhos.DiToscana[1]}
           link=" https://www.figma.com/file/OAAJVElr6qakdfZNjbWYnI/Pizzaria-Di-Toscana?type=design&node-id=2%3A3&t=KQbajgjeH28KsSYG-1"
         />
-        <Jobs
+        {/* <Jobs
           image={Notes}
           title={trabalhos.SimpleNotes[0]}
           description={trabalhos.SimpleNotes[1]}
           link="https://www.figma.com/file/WLnXWHihUKlI5NvHsF48Qg/Simple-Notes?node-id=0%3A1&t=p85UzO1UojyYwh9H-1"
-        />
+        /> */}
         {/* <Jobs
           image={AlePortifolio}
           title={trabalhos.LehPort[0]}
