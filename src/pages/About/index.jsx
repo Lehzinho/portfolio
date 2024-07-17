@@ -8,7 +8,7 @@ import { Nav } from "../../components/Nav";
 import { Competências, Container, Content, Habilidades, Sobre } from "./styles";
 import Image from "../../assets/viviirlanda.jpg";
 import { useLang } from "../../useContext";
-import { langTokens } from "../../Hooks/uselang";
+import useLang from "../../hooks/useLang";
 
 export const About = () => {
   const { lang } = useLang();

@@ -11,8 +11,7 @@ import ViPortifolio from "../../assets/ViPortfolio.png";
 import Piratas from "../../assets/Piratas.png";
 import jm from "../../assets/jm.png";
 import AlePortifolio from "../../assets/AlePortfolio.png";
-
-import { langTokens } from "../../Hooks/uselang";
+import useLang from "../../hooks/useLang";
 import { useLang } from "../../useContext";
 
 export const Portfolio = () => {
