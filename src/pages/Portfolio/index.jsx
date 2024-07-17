@@ -27,6 +27,20 @@ export const Portfolio = () => {
         <h1>{portfolio.header}</h1>
         <h4>{portfolio.header}</h4>
         <Jobs
+          image={Piratas}
+          title={trabalhos.MyPort[0]}
+
+          description={trabalhos.MyPort[1]}
+          link="https://www.figma.com/design/8wjq0LpvKJWPQEswE5isXd/Piratas?node-id=0-1&t=LoYx5oKj7wHdzKXX-1"
+        /> 
+        <Jobs
+          image={jm}
+          title={trabalhos.MyPort[0]}
+
+          description={trabalhos.MyPort[1]}
+          link="https://www.figma.com/design/n7ht1OqWPes3NStZEU2ZOO/JM-Print-and-Sign?node-id=34-5&t=iLRBKSsghS5rZ3mG-1"
+        /> 
+        <Jobs
           image={Pizzaria}
           title={trabalhos.DiToscana[0]}
           description={trabalhos.DiToscana[1]}
@@ -67,20 +81,7 @@ export const Portfolio = () => {
           description={trabalhos.MyPort[1]}
           link="https://www.figma.com/file/jUUX9tfTlltsQQKZQrnWek/Portfolio2?type=design&node-id=10%3A3459&t=exILhDBA6TLonJ8D-1"
         /> 
-        <Jobs
-          image={Piratas}
-          title={trabalhos.MyPort[0]}
 
-          description={trabalhos.MyPort[1]}
-          link="https://www.figma.com/design/8wjq0LpvKJWPQEswE5isXd/Piratas?node-id=0-1&t=LoYx5oKj7wHdzKXX-1"
-        /> 
-        <Jobs
-          image={jm}
-          title={trabalhos.MyPort[0]}
-
-          description={trabalhos.MyPort[1]}
-          link="https://www.figma.com/design/n7ht1OqWPes3NStZEU2ZOO/JM-Print-and-Sign?node-id=34-5&t=iLRBKSsghS5rZ3mG-1"
-        /> 
     
     
       </Content>
