@@ -13,10 +13,10 @@ import jm from "../../assets/jm.png";
 import AlePortifolio from "../../assets/AlePortfolio.png";
 
 import { langTokens } from "../../Hooks/uselang";
-import { useLang } from "../../useContext";
+import { useLang as useLanguage } from "../../useContext";
 
 export const Portfolio = () => {
-  const { lang } = useLang();
+  const { lang } = useLanguage();
   const { portfolio, trabalhos } = langTokens(lang);
   console.log(trabalhos.Cakes[0]);
 

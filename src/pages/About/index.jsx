@@ -7,11 +7,11 @@ import { Footer } from "../../components/Footer";
 import { Nav } from "../../components/Nav";
 import { Competências, Container, Content, Habilidades, Sobre } from "./styles";
 import Image from "../../assets/viviirlanda.jpg";
-import { useLang } from "../../useContext";
+import { useLang as useLanguage } from "../../useContext";
 import { langTokens } from "../../Hooks/uselang";
 
 export const About = () => {
-  const { lang } = useLang();
+  const { lang } = useLanguage();
   const { aboutMe } = langTokens(lang);
 
   return (

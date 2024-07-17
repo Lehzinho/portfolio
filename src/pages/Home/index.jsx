@@ -12,10 +12,10 @@ import {
 } from "react-icons/ai";
 import ptcv from "../../assets/vivianecv.pdf";
 import { langTokens } from "../../Hooks/uselang";
-import { useLang } from "../../useContext";
+import { useLang as useLanguage } from "../../useContext";
 
 export const Home = () => {
-  const { lang } = useLang();
+  const { lang } = useLanguage();
   const { inicio } = langTokens(lang);
 
   return (
