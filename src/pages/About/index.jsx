@@ -34,7 +34,6 @@ export const About = () => {
           <FaHtml5 />
           <FaCss3Alt />
           <IoLogoJavascript />
-          <FaReact />
         </Habilidades>
         <h4>{aboutMe.header3}</h4>
         <Competências>

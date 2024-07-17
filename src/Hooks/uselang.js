@@ -1,4 +1,6 @@
 export const langTokens = (mode) =>
+      // Inglês
+
   mode === "En"
     ? {
         navBar: {
@@ -13,10 +15,9 @@ export const langTokens = (mode) =>
         inicio: {
           welcome: "Hi, I am",
           h1: "Viviane Castilho",
-          h3: "UI/UX & Web Designer ",
+          h3: "UI/UX Designer ",
           contact:
-            "As a freelancer, I offer website creation services with expertise in prototyping, wireframing, and user experience (UX) design. Additionally, I have intermediate knowledge of English, allowing me to serve international clients. With experience in interface design and team leadership, I am ready to assist you in developing an effective and appealing website. Please reach out to discuss your idea and turn it into an online reality.",
-          rights: "Copyright © Todos os direitos reservados",
+            "As a specialized UI/UX designer, I offer freelance services focused on creating high-impact websites. My expertise includes meticulous prototyping and wireframing, as well as UX design to ensure intuitive and efficient interfaces. With an advanced level of proficiency in English, I am prepared to serve international clients, facilitating clear and effective communication throughout the project. I am committed to collaborating with you to transform your vision into an attractive and functional website or application. Whether for a new project or enhancing an existing platform, I am ready to leverage my knowledge and skills to create an online presence that not only impresses but also fulfills your strategic objectives. Please reach out today to discuss your needs and how we can work together to achieve digital success. I look forward to being part of your next project and contributing positively and impactfully to your online journey.",
         },
         aboutMe: {
           header: "About Me",
@@ -44,9 +45,12 @@ export const langTokens = (mode) =>
           Cakes: ["Delicious Cake","Creation made with Figma tool for a handmade bakery, both web and mobile."],
           Kindle: ["Kindle","Test UI design project created for a technology-themed company. Includes Landing Page, E-mail Marketing, and Mobile design."],
           MyPort: ["Personal Portfolio","Personal portfolio created in Figma."],
+          MyPort: ["Piratas","Criação feita com a ferramenta Figma para uma pizzaria temática em Caldas Novas, web e mobile."],
+          MyPort: ["JM Print","Criação de Landing Page para uma gráfica na Irlanda, utilizando o Figma como principal ferramenta."],
         },
       }
     : {
+      // Portugues
         navBar: {
           home: "Inicio ",
           about: "Sobre",
@@ -59,10 +63,9 @@ export const langTokens = (mode) =>
         inicio: {
           welcome: "Olá, eu sou",
           h1: "Viviane Castilho",
-          h3: "UI/UX & Web Designer ",
+          h3: "UI/UX Designer ",
           contact:
-            "Como freelancer, ofereço serviços de criação de sites com habilidades em elaboração de protótipos, wireframes e design de experiência do usuário (UX). Além disso, possuo conhecimento intermediário em inglês, o que me permite atender clientes internacionais. Com experiência em design de interfaces e liderança de equipe, estou pronto para ajudar você a desenvolver um site eficaz e atraente. Entre em contato para discutirmos sua ideia e transformá-la em uma realidade online.",
-          rights: "Copyright © Todos os direitos reservados",
+            "Como profissional especializado em UI/UX design, ofereço serviços freelance focados na criação de websites de alto impacto. Minha expertise abrange a elaboração meticulosa de protótipos e wireframes, bem como o design de experiência do usuário (UX) para garantir interfaces intuitivas e eficientes. Com um nível  avançado proficiência em inglês, estou preparado para atender clientes internacionais, facilitando uma comunicação clara e eficaz ao longo do projeto.Estou comprometido em colaborar com você para transformar sua visão em um website e aplicativo atrativo e funcional. Seja para um novo projeto ou para aprimorar uma plataforma existente, estou pronto para oferecer meu conhecimento e habilidades para criar uma presença online que não apenas impressione, mas também cumpra seus objetivos estratégicos. Entre em contato hoje mesmo para discutirmos suas necessidades e como podemos trabalhar juntos para alcançar o sucesso digital. Estou ansioso para fazer parte do seu próximo projeto e contribuir para sua jornada online de forma positiva e impactante.",
         },
         aboutMe: {
           header: "Sobre Mim",
