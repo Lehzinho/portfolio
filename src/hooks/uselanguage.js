@@ -38,7 +38,7 @@ export const langTokens = (mode) =>
           see: "Check it out",
         },
         trabalhos: {
-          DiToscana: ["Di Toscana Pizzaria","In progress... Website  design being make in Figma for a pizzeria in Caldas Novas, Goiás."],
+          DiToscana: ["Di Toscana Pizzaria","Website  design being make in Figma for a pizzeria in Caldas Novas, Goiás."],
           SimpleNotes: ["Simple Notes","Creation made with Figma tool through Rodrigo Gonçalves' web design course."],
           // LehPort: ["Portfolio","Project created for a portfolio, made in Figma."],
           Cakes: ["Delicious Cake","Creation made with Figma tool for a handmade bakery, both web and mobile."],
@@ -88,7 +88,7 @@ export const langTokens = (mode) =>
           see: "Veja Mais",
         },
         trabalhos: {
-          DiToscana: ["Di Toscana Pizzaria","Em andamento.... Site está sendo desenvolvido no Figma para uma pizzaria em Caldas Novas - Goiás."],
+          DiToscana: ["Di Toscana Pizzaria","Site criado no Figma para uma pizzaria em Caldas Novas - Goiás."],
           SimpleNotes: ["Simple Notes","Criação feita com a ferramenta Figma pelo curso do Rodrigo Gonçalves, web."],
           // LehPort: ["Portfólio","Projeto criado para um Portifólio realizado no Figma."],
           Cakes: ["Delicious Cake","Criação feita com a ferramenta Figma para uma confeitaria artesanal, web e mobile."],
